@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+[class*="col-"]{
+    float: left;
+    /* padding: 15px;
+    border: 1px solid black; */
+}
+
+/* .row{
+    width: 100%;
+    float: left;
+} */
+
+.banner{
+    background-color: rgb(15, 10, 10);
+    margin-bottom: 40px;
+}
+.middle{
+    background-color: grey;
+    padding-left: 20px;
+}
+header{
+    font-size: 100px;
+}
+section{
+    font-size: 33px;
+    padding: 30px;
+}
+button{
+    font-size: 16px;
+    block-size: 40px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+button:hover{
+    background-color: blue;
+}
+
+/* 
+.row1{
+    background-color: rgb(27, 4, 4);
+    
+
+} */
+
+nav.horizontal{
+    min-height: 30px;
+    margin-bottom: 0px;
+}
+
+.second{
+    margin-bottom: 25px;
+}
+
+nav.horizontal ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    color: brown;
+
+}
+
+nav.horizontal ul li{
+    flex: 1;
+    text-align: center;
+    margin-right: 10px;
+    
+    /* border: 1px solid black; */
+    /* color: black; */
+
+}
+
+
+nav.horizontal  ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    /* box-shadow: 5px 5px 5px black; */
+    color: white;
+}
+nav.horizontal ul li a:hover{
+    background-color: rgb(216, 96, 17);
+}
+
+
+.final{
+    display: flex;
+    /* flex: 1; */
+    flex-direction: row;
+}
+.content{
+    flex: 1;
+    justify-content: space-between;
+    margin: 0;
+    text-align: center;
+    
+    
+}
+.a1{
+    border-right: 20px solid white;
+}
+
+.a2{
+    border-right: 20px solid white;
+}
+
+.a3{
+    border-right: 20px solid white;
+}
+.down{
+    background-color: rgb(155, 153, 153);
+    /* height: 200px; */
+}
+
+.img-responsive{
+    max-width:100%;
+    max-height:100%;
+    /* width: 300px; */
+    
+}
